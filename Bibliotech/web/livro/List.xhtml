@@ -41,6 +41,12 @@
                         </p:column>
                         <p:column>
                             <f:facet name="header">
+                                <h:outputText value="#{bundle.ListLivroTitle_numPaginas}"/>
+                            </f:facet>
+                            <h:outputText value="#{item.numPaginas}"/>
+                        </p:column>
+                        <p:column>
+                            <f:facet name="header">
                                 <h:outputText value="#{bundle.ListLivroTitle_edicao}"/>
                             </f:facet>
                             <h:outputText value="#{item.edicao}"/>
@@ -50,6 +56,12 @@
                                 <h:outputText value="#{bundle.ListLivroTitle_isbn}"/>
                             </f:facet>
                             <h:outputText value="#{item.isbn}"/>
+                        </p:column>
+                        <p:column>
+                            <f:facet name="header">
+                                <h:outputText value="#{bundle.ListLivroTitle_imagem}"/>
+                            </f:facet>
+                            <h:outputText value="#{item.imagem}"/>
                         </p:column>
                         <p:column>
                             <f:facet name="header">
